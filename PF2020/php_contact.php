@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link href="CSS\CSS_PFF6.css" rel="stylesheet" type="text/css" /> 
+        <title>Les Genets Acceuil</title>
+    </head>
+
+    <body>
+        <div class="toppp">
+            <!-- entete -->
+            <div class ="entete">
+                <font size="+4"><b><center>VIGNALS Benoît</center></b></font>
+            </div>
+
+            <!-- menu -->
+            <div class ="menu">
+                <a href="php_acceuil.php"><input type="button" class="btn-success" value="Accueil" ></a>
+                <a href="php_competences.php"><input type="button" class="btn-success" value="Compétences" ></a>
+                <a href="php_cv.php"><input type="button" class="btn-success" value="CV" ></a>
+                <a href="php_veille_techno.php"><input type="button" class="btn-success" value="Veille Technologique" ></a> 
+                <a href="php_ppe.php"><input type="button" class="btn-success" value="PPE" ></a>              
+                <a href="php_stage.php"><input type="button" class="btn-success" value="Stages" ></a>            
+                <a href="php_contact.php"><input type="button" class="btn-success" value="Contact" ></a>
+            </div>
+        </div>
+        
+        <!-- pas des session sur cette page-->
+
+        <div>
+        <br><br><font size="+2"><b><center>Contact</center></b></font>
+        <br><br><br><br>
+        <b>Me contacter : </b><br><br>
+        Tel : 0606929218 <br>
+        Mail : vignals.benoit@gmail.com <br>
+        Adresse : 17 rue des Gaucelms 34400 Lunel, FRANCE <br>
+
+       <!-- TEST -->
+        <div class="contact">
+            <form id="contact" method="post" action="traitement_formulaire.php">
+            <fieldset><legend>Vos coordonnées</legend>
+                <p><label for="nom">Nom :</label><input type="text" id="nom" name="nom" /></p>
+                <p><label for="email">Email :</label><input type="text" id="email" name="email" /></p>
+            </fieldset>
+        
+            <fieldset><legend>Votre message :</legend>
+                <p><label for="objet">Objet :</label><input type="text" id="objet" name="objet" /></p>
+                <p><label for="message">Message :</label><textarea id="message" name="message" cols="30" rows="8"></textarea></p>
+            </fieldset>
+        
+            <div style="text-align:center;"><input type="submit" name="envoi" value="Envoyer" /></div>
+            </form>
+        </div>
+
+        <!-- TEST FIN -->
+
+        
+    </body> 
+</html>
