@@ -50,6 +50,12 @@
             <img class="ppeimg" src="images/park.PNG"><br>
         </div>
         
+    <div class="ppe2"> 
+        <p class="vttitre">GitHub<br></p>
+        <a href="https://github.com/Orinell/Porte-follio.git" ><input type="button" class="btn-success-rouge" value="Lien GIT Porte follio" ></a>
+        <img class="ppeimg" src="images/GIT.jpg"><br>
+    </div>
+
     </body> 
 
 </html>
